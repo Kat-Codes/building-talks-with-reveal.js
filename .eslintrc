@@ -2,6 +2,9 @@
   "extends": ["airbnb", "prettier", "prettier/react"],
   "plugins": ["react", "prettier"],
   "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/no-unescaped-entities": "off",
+    "react/require-default-props": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -9,8 +12,7 @@
       }
     ],
     "prettier/prettier": "error",
-    "max-len": ["error", 80],
-    "react/require-default-props": "off"
+    "max-len": ["error", 80]
   },
   "env": {
     "browser": true

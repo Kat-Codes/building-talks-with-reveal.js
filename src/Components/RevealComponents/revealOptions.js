@@ -2,8 +2,7 @@ import Reveal from 'reveal.js/js/reveal';
 
 export default {
   // Display presentation control arrows
-  controls: false,
-
+  controls: true,
 
   // Help the user learn the controls by providing hints, for example by
   // bouncing the down arrow when they first encounter a vertical slide
@@ -27,7 +26,7 @@ export default {
   hash: false,
 
   // Push each slide change to the browser history. Implies `hash: true`
-  history: false,
+  history: true,
 
   // Enable keyboard shortcuts for navigation
   keyboard: true,

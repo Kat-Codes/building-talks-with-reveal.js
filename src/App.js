@@ -8,9 +8,7 @@ import 'reveal.js/css/theme/black.css';
 
 const App = () => (
   <div className="App">
-    <Deck>
-      {Slides}
-    </Deck>
+    <Deck>{Slides}</Deck>
   </div>
 );
 

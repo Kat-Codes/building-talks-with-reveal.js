@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import Reveal from 'reveal.js';
+import PropTypes from 'prop-types';
 import revealOptions from './revealOptions';
 
-import 'reveal.js/plugin/notes/notes.js';
+import 'reveal.js/plugin/notes/notes';
 // import 'reveal.js/plugin/math/math.js';
-import 'reveal.js/css/reveal.css'
+import 'reveal.js/css/reveal.css';
 
-export default function Deck({ options, children }) {
+const Deck = ({ options, children }) => {
   useEffect(() => {
     Reveal.initialize({ ...revealOptions, ...options });
   });
@@ -15,4 +16,11 @@ export default function Deck({ options, children }) {
       <div className="slides">{children}</div>
     </div>
   );
-}
+};
+
+Deck.propTypes = {
+  children: PropTypes.node,
+  options: PropTypes.string,
+};
+
+export default Deck;
