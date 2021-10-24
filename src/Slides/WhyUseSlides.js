@@ -24,28 +24,42 @@ const WhyUseSlides = () => (
   <>
     <Slide>
       <Slide>
-        <h3>Why would you use reveal?</h3>
+        <h4>Why would you use reveal?</h4>
         <Note>
           So I've mentioned the facts of what Reveal includes, but why do I
           think you should use it?
         </Note>
       </Slide>
-      <Slide>
-        <h3>
-          Build a boilerplate, set up layouts, reusable components (component
-          library?)
-        </h3>
+      <Slide transition="slide">
+        <h4>Build a boilerplate, set up layouts, reusable components</h4>
       </Slide>
-      <Slide>
+      <Slide transition="slide">
         <JSX code={aboutReveal} />
       </Slide>
-      <Slide>
-        <h3>
+      <Slide transition="slide">
+        <h4>
           Build with all your favourite libraries and knowledge you already have
-        </h3>
+        </h4>
       </Slide>
-      <Slide>
+      <Slide transition="slide">
+        <p>[styled components example]</p>
+      </Slide>
+      <Slide transition="slide">
+        <p>[css animation example]</p>
+      </Slide>
+      <Slide transition="slide">
         <h3>Host your slides online</h3>
+        <ul>
+          <li>
+            Can be hosted like any other static HTML site (GitHub pages, Netlify
+            etc)
+          </li>
+          <li>Some people prefer going through slides at their own pace</li>
+          <li>People can reference them later</li>
+          <li>
+            Accessible on mobile without any additional software or downloads
+          </li>
+        </ul>
       </Slide>
     </Slide>
   </>

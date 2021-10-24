@@ -3,7 +3,7 @@ import Slide from '../Components/RevealComponents/Slide';
 
 const TitleSlide = () => (
   <Slide>
-    <h1>Building talks with Reveal.js (with React)</h1>
+    <h2>Building talks with Reveal.js (with React)</h2>
     <h5>Katie Walker @KatCodes</h5>
   </Slide>
 );

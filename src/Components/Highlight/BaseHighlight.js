@@ -1,14 +1,10 @@
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import React from 'react';
 import PropTypes from 'prop-types';
+import theme from 'prism-react-renderer/themes/nightOwl';
 
 const BaseHighlight = ({ code = '', language }) => (
-  <Highlight
-    {...defaultProps}
-    language={language}
-    code={code}
-    theme={undefined}
-  >
+  <Highlight {...defaultProps} language={language} code={code} theme={theme}>
     {({ className, style, tokens, getLineProps, getTokenProps }) => (
       <pre className={className} style={style}>
         {tokens.map((line, i) => (
