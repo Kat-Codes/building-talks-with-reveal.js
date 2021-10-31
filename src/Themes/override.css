@@ -12,7 +12,7 @@ body {
 .reveal h1,
 .reveal h2,
 .reveal h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
 }
 
@@ -22,7 +22,9 @@ body {
 
 p,
 li {
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+
   font-size: 36px;
   line-height: 1.5;
   margin: 10px 0;

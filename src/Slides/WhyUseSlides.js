@@ -2,15 +2,29 @@ import React from 'react';
 import Slide from '../Components/RevealComponents/Slide';
 import Note from '../Components/Notes/note';
 import JSX from '../Components/Highlight/JSX';
+import StyledComponentSlide from './StyledComponentSlide';
 
-const aboutReveal = `const AboutRevealSlide = () => (
+// const aboutRevealBefore = `
+// import React from 'react';
+
+// const AboutRevealSlide = () => (
+//   <section data-transition="fade">
+//     <h3>What is Reveal.js?</h3>
+//     <ul>
+//       <li>Framework for creating presentations with HTML</li>
+//       <li>Open source 🥳</li>
+//     </ul>
+//     <aside class="notes">What is Reveal.js?</aside>
+//   </section>
+// );
+
+// export default AboutRevealSlide;
+// `;
+
+const aboutRevealAfter = `const AboutRevealSlide = () => (
   <SlideWithTitle title="What is Reveal.js?">
   <ul>
     <li>Framework for creating presentations with HTML</li>
-    <li>
-      Comes with all the features you need, such as speaker notes,
-      transitions and syntax highlighting for code snippets
-    </li>
     <li>Open source 🥳</li>
   </ul>
   <Note>What is Reveal.js?</Note>
@@ -31,19 +45,17 @@ const WhyUseSlides = () => (
         </Note>
       </Slide>
       <Slide transition="slide">
-        <h4>Build a boilerplate, set up layouts, reusable components</h4>
+        <h4>Build a boilerplate, set up layouts, make reusable components</h4>
       </Slide>
       <Slide transition="slide">
-        <JSX code={aboutReveal} />
+        <JSX code={aboutRevealAfter} />
       </Slide>
       <Slide transition="slide">
         <h4>
           Build with all your favourite libraries and knowledge you already have
         </h4>
       </Slide>
-      <Slide transition="slide">
-        <p>[styled components example]</p>
-      </Slide>
+      <StyledComponentSlide transition="slide" />
       <Slide transition="slide">
         <p>[css animation example]</p>
       </Slide>

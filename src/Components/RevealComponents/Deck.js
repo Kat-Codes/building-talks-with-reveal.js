@@ -16,6 +16,7 @@ const Deck = ({ options, children }) => {
     <div className="reveal">
       <DecorativeBorder />
       <div className="slides">{children}</div>
+      <Author>@KatCodes</Author>
     </div>
   );
 };
@@ -27,6 +28,12 @@ const DecorativeBorder = () => (
     <DecorativeBox bg="#8F1812" />
   </BoxContainer>
 );
+
+const Author = styled.h6`
+  position: fixed;
+  bottom: 0;
+  left: 20px;
+`;
 
 const BoxContainer = styled.div`
   display: flex;

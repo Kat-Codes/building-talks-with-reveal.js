@@ -12,10 +12,6 @@ const AboutRevealSlide = () => (
     <h3>What is Reveal.js?</h3>
     <ul>
       <li>Framework for creating presentations with HTML</li>
-      <li>
-        Comes with all the features you need, such as speaker notes, transitions
-        and syntax highlighting for code snippets
-      </li>
       <li>Open source 🥳</li>
     </ul>
     <aside class="notes">What is Reveal.js?</aside>
@@ -30,10 +26,6 @@ const AboutRevealSlides = () => (
     <SlideWithTitle title="What is Reveal.js?">
       <ul>
         <li>Framework for creating presentations with HTML</li>
-        <li>
-          Comes with all the features you need, such as speaker notes,
-          transitions and syntax highlighting for code snippets
-        </li>
         <li>Open source 🥳</li>
       </ul>
       <Note>What is Reveal.js?</Note>

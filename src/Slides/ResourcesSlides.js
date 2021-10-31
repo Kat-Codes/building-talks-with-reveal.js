@@ -6,11 +6,11 @@ const ResourcesSlides = () => (
   <Slide>
     <h3>Resources</h3>
     <ul>
-      <li>Reveal.js: https://revealjs.com/</li>
-      <li>These slides: [tbc]</li>
+      <li>Reveal.js: revealjs.com/</li>
+      <li>These slides: building-talks-with-reveal-js.katcodes.co.uk</li>
       <li>
         GitHub for these slides:
-        https://github.com/Kat-Codes/building-talks-with-reveal.js
+        github.com/Kat-Codes/building-talks-with-reveal.js
       </li>
     </ul>
     <Note>[Notes here]</Note>
