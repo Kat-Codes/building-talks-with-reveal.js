@@ -10,7 +10,11 @@ const IntroSlides = () => (
         src="image/qr-code.png"
         alt="QR code that links to these slides"
       />
-      <p color="black">View slides</p>
+      <p color="black">✨Slides✨</p>
+      <Note>
+        The slides are accessible via this QR code to follow along with. I'll
+        link again at the end if you want to reference them later
+      </Note>
     </Slide>
     <Slide>
       <h3>About me</h3>

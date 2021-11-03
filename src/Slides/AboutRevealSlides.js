@@ -32,22 +32,31 @@ const AboutRevealSlides = () => (
     </SlideWithTitle>
     <Slide>
       <JSX code={revealExample} />
+      <Note>
+        <ul>
+          <li>
+            The slide you just saw for a short into into Reveal, this is what
+            the code looks like
+          </li>
+        </ul>
+      </Note>
     </Slide>
     <Slide>
       <h3>Features of Reveal</h3>
       <ul>
         <li>
-          HTML presentation - so you can use all your favourite libraries and
-          frameworks (like React)
+          HTML presentation - so you can use all your favourite web libraries
+          and frameworks (like React)
         </li>
-        <li>Has plugins built in & allows custom ones</li>
+        <li>Has plugins and themes built in + allows custom ones</li>
         <ul>
           <li>Code snippets</li>
           <li>Markdown</li>
           <li>Math</li>
         </ul>
-        <li>No-code online editor available online</li>
+        <li>No-code editor available online</li>
       </ul>
+      <Note>So what are some of the features of reveal?</Note>
     </Slide>
   </>
 );

@@ -47,6 +47,7 @@ li::marker {
 
 .reveal pre {
   width: unset;
+  padding-left: 20px;
 }
 
 /* Ensure certain elements are never larger than the slide itself */
