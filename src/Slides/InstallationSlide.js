@@ -18,15 +18,11 @@ deck.initialize();
 `;
 
 const InstallationSlide = () => (
-  <>
-    <Slide>
-      <h3>Installation</h3>
-    </Slide>
-    <Slide>
-      <Bash code={npmInstall} />
-      <JSX code={initialise} />
-    </Slide>
-  </>
+  <Slide>
+    <h3>Installation</h3>
+    <Bash code={npmInstall} />
+    <JSX code={initialise} />
+  </Slide>
 );
 
 export default InstallationSlide;
