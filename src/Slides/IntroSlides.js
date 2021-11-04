@@ -16,10 +16,6 @@ const IntroSlides = () => (
         link again at the end if you want to reference them later
       </Note>
     </Slide>
-    <Slide>
-      <h3>About me</h3>
-      <Note>[Notes here]</Note>
-    </Slide>
   </>
 );
 

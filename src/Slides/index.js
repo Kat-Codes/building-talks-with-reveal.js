@@ -6,13 +6,17 @@ import AboutRevealSlides from './AboutRevealSlides';
 import WhyUseSlides from './WhyUseSlides';
 import WhyDontUseSlides from './WhyDontUseSlides';
 import ResourcesSlides from './ResourcesSlides';
+import RecapSlide from './RecapSlide';
+import InstallationSlide from './InstallationSlide';
 
 export default [
   <TitleSlide />,
   <IntroSlides />,
   <AboutRevealSlides />,
+  <InstallationSlide />,
   <WhyUseSlides />,
   <WhyDontUseSlides />,
+  <RecapSlide />,
   <ResourcesSlides />,
   <ClosingSlides />,
 ];
