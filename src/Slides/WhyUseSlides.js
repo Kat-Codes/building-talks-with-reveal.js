@@ -64,7 +64,8 @@ const WhyUseSlides = () => (
         <JSX code={aboutRevealAfter} />
       </Slide>
       <StyledComponentSlide />
-      <CSSAnimationSlide transition="slide" />
+      <Slide />
+      <CSSAnimationSlide transition="fade" />
       <Slide transition="slide">
         <h3>Host your slides online</h3>
         <ul>

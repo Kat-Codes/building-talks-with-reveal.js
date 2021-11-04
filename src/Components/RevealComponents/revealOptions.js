@@ -128,7 +128,7 @@ export default {
   backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
 
   // Number of slides away from the current that are visible
-  viewDistance: 1,
+  viewDistance: 2,
 
   // Parallax background image
   parallaxBackgroundImage: '', // e.g.
