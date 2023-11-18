@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
 
-body {
+/* body {
   background: #0f3139;
-}
+} */
 
 .reveal .progress {
   /* background: rgba(0, 0, 0, 0.2); */
-  color: #edc54d;
+  /* color: #edc54d; */
 }
 
 .reveal h1,
@@ -17,7 +17,7 @@ body {
 }
 
 .reveal .controls {
-  color: #edc54d;
+  /* color: #edc54d; */
 }
 
 p,
@@ -32,7 +32,7 @@ li {
 
 li::marker {
   /* content: counter(list-item) "› "; */
-  color: #21685c;
+  /* color: #21685c; */
 }
 
 .App {
@@ -40,7 +40,7 @@ li::marker {
 }
 
 .reveal a {
-  color: white;
+  /* color: white; */
   text-decoration: underline;
   font-style: italic;
 }

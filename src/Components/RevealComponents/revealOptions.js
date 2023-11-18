@@ -1,4 +1,4 @@
-import Reveal from 'reveal.js/js/reveal';
+import Reveal from 'reveal.js/dist/reveal';
 
 export default {
   // Display presentation control arrows
@@ -29,7 +29,12 @@ export default {
   history: true,
 
   // Enable keyboard shortcuts for navigation
-  keyboard: true,
+  keyboard: {
+    37: 'prev',
+    38: 'prev',
+    39: 'next',
+    40: 'next',
+  },
 
   // Enable the slide overview mode
   overview: true,

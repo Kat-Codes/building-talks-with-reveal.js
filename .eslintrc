@@ -10,9 +10,7 @@
       {
         "extensions": [".js", "jsx"]
       }
-    ],
-    "prettier/prettier": "error",
-    "max-len": ["error", 80]
+    ]
   },
   "env": {
     "browser": true
