@@ -4,7 +4,6 @@ import Note from '../Components/Notes/note';
 import Link from '../Components/Link';
 
 const IntroSlides = () => (
-  <>
     <Slide>
       <img
         width="250px"
@@ -20,7 +19,6 @@ const IntroSlides = () => (
         link again at the end if you want to reference them later
       </Note>
     </Slide>
-  </>
 );
 
 export default IntroSlides;
