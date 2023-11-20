@@ -29,7 +29,6 @@ const StyledComponentSlide = props => (
       <Note>As I mentioned you can use all your favourite libraries</Note>
     </Slide>
     <Slide {...props}>
-      <StyledHeader>Styled Components</StyledHeader>
       <JSX code={styledComponentsSnippet} />
     </Slide>
   </>

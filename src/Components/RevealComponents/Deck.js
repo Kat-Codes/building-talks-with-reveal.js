@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import RevealNotes from 'reveal.js/plugin/notes/notes';
-// import Math from 'reveal.js/plugin/math/math';
+import RevealMarkdown from 'reveal.js/plugin/markdown/markdown';
+
 // import { color } from 'styled-system';
 import Reveal from 'reveal.js';
 import PropTypes from 'prop-types';
@@ -11,7 +12,7 @@ import 'reveal.js/dist/reveal.css';
 
 const Deck = ({ children }) => {
   useEffect(() => {
-    Reveal.initialize({ ...revealOptions, plugins: [RevealNotes] });
+    Reveal.initialize({ ...revealOptions, plugins: [RevealNotes, RevealMarkdown] });
   });
   return (
     <div className="reveal">
@@ -53,7 +54,7 @@ const Author = styled.h6`
 // `;
 
 Deck.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
 };
 
 export default Deck;

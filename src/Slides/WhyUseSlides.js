@@ -5,7 +5,6 @@ import JSX from '../Components/Highlight/JSX';
 import StyledComponentSlide from './StyledComponentSlide';
 import CSSAnimationSlide from './CSSAnimationSlide';
 
-
 const aboutRevealBefore = `
 const AboutRevealSlide = () => (
   <section data-transition="fade">
@@ -46,7 +45,7 @@ const WhyUseSlides = () => {
     <>
       <Slide>
         <Slide>
-          <h3>Why would you use reveal?</h3>
+          <h3>Why would you use Reveal?</h3>
           <Note>
             So I've mentioned the facts of what Reveal includes, but why do I
             think you should use it?
@@ -54,16 +53,19 @@ const WhyUseSlides = () => {
         </Slide>
         <Slide transition="slide">
           <h4>It's code, so it's re-usable!</h4>
-          <h4>Create a boilerplate, set up layouts, make reusable components</h4>
+          <h4>
+            Create a boilerplate, set up layouts, make reusable components
+          </h4>
         </Slide>
         <Slide transition="slide">
           <h4>
-            Build with all your favourite libraries and knowledge you already have
+            Build with all your favourite libraries and knowledge you already
+            have
           </h4>
           <Note>
             This deck was bootstrapped with Create React App, so it was pretty
-            quick to get up and running and it feels very familar, with little to
-            no learning curve
+            quick to get up and running and it feels very familar, with little
+            to no learning curve
           </Note>
         </Slide>
         <Slide data-auto-animate>
@@ -96,6 +98,6 @@ const WhyUseSlides = () => {
       </Slide>
     </>
   );
-}
+};
 
 export default WhyUseSlides;

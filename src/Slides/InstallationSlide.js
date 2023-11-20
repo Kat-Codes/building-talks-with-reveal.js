@@ -29,33 +29,28 @@ const App = ({ children }) => {
 `;
 
 const revealExample = `
-import React from 'react';
-
-const AboutRevealSlide = () => (
-  <section data-transition="fade">
-    <h3>What is Reveal.js?</h3>
-    <ul>
-      <li>Framework for creating presentations with HTML</li>
-      <li>This presentation is built using it 🤯</li>
-      <li>My demos will be using React, but this is optional!</li>
-      <li>Open source</li>
-    </ul>
-    <aside class="notes">What is Reveal.js?</aside>
-  </section>
-);
-
-export default AboutRevealSlide;
+<section data-transition="fade">
+  <h3>What is Reveal.js?</h3>
+  <ul>
+    <li>Framework for creating presentations with HTML</li>
+    <li>This presentation is built using it 🤯</li>
+    <li>My demos will be using React, but this is optional!</li>
+    <li>Open source</li>
+  </ul>
+  <aside class="notes">What is Reveal.js?</aside>
+</section>
 `;
 
 // todo: fix
 const InstallationSlide = () => (
   <>
-  <Slide>
-    <h3>Installation</h3>
-    <Bash code={npmInstall} />
-    <JSX code={initialise} />
+    <Slide>
+      <h3>Installation</h3>
+      <Bash code={npmInstall} />
+      <JSX code={initialise} />
     </Slide>
     <Slide>
+      <h5>And our slides look like this...</h5>
       {/* todo: make this the right code */}
       <JSX code={revealExample} />
       <Note>

@@ -6,12 +6,6 @@ import Link from '../Components/Link';
 const IntroSlides = () => (
   <>
     <Slide>
-      <h4 color="black">
-        👋 I'm Katie, I'm a Full-Stack Engineer working at Spotify
-      </h4>
-      <Note>Hi all, I work in the platform space and I love all things web</Note>
-    </Slide>
-    <Slide>
       <img
         width="250px"
         src="image/qr-code.png"

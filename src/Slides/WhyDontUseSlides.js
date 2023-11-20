@@ -5,7 +5,7 @@ import Slide from '../Components/RevealComponents/Slide';
 const WhyDontUseSlides = () => (
   <Slide>
     <Slide transition="slide">
-      <h3>Why might you not want to use reveal?</h3>
+      <h3>Why might you not want to use Reveal?</h3>
       <Note>
         Why might you not want to use it? There's downsides to every framework
       </Note>
@@ -35,7 +35,13 @@ const WhyDontUseSlides = () => (
       </Note>
     </Slide>
     <Slide transition="slide">
-      <h4>Keeping your packages up-to-date</h4>
+      <h2>😱</h2>
+      <img src="image/vulns.png" alt="Screenshot of console showing 139 vulnerabilities" />
+      <Note>
+        <p>
+          Packages need to be kept up to date
+        </p>
+      </Note>
     </Slide>
     <Slide transition="slide">
       <iframe
