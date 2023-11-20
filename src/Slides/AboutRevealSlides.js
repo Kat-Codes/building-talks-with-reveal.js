@@ -12,6 +12,7 @@ const AboutRevealSlide = () => (
     <h3>What is Reveal.js?</h3>
     <ul>
       <li>Framework for creating presentations with HTML</li>
+      <li>My demos will be using React, but this is optional!</li>
       <li>Open source 🥳</li>
     </ul>
     <aside class="notes">What is Reveal.js?</aside>
@@ -26,21 +27,15 @@ const AboutRevealSlides = () => (
     <SlideWithTitle title="What is Reveal.js?">
       <ul>
         <li>Framework for creating presentations with HTML</li>
+        <li>My demos will be using React, but this is optional!</li>
         <li>Open source 🥳</li>
       </ul>
-      <Note>What is Reveal.js?</Note>
-    </SlideWithTitle>
-    <Slide>
-      <JSX code={revealExample} />
       <Note>
-        <ul>
-          <li>
-            The slide you just saw for a short into into Reveal, this is what
-            the code looks like
-          </li>
-        </ul>
+        So let's get into it! What is Reveal.js? A framework. In this talk I
+        will be using React as my HTML rendering library of choice but this is
+        completely optional
       </Note>
-    </Slide>
+    </SlideWithTitle>
     <Slide>
       <h3>Features of Reveal</h3>
       <ul>
@@ -56,7 +51,36 @@ const AboutRevealSlides = () => (
         </ul>
         <li>No-code editor available online</li>
       </ul>
-      <Note>So what are some of the features of reveal?</Note>
+      <Note>
+        <ul>
+          <li>So what are some of the features of reveal?</li>
+          <li>
+            For example, both in previous jobs and my current one, I use React
+            with some libraries like styled components so I'm very comfortable
+            with them, therefore I can use them while I built these slides and
+            it felt very intuitive.
+          </li>
+          <li>
+            If you don't want to create your colour scheme from scratch, there
+            are some lovely themes built in
+          </li>
+          <li>
+            There is also the option to use this library with no code! So you
+            can make use of all the great features without needing to code
+            yourself
+          </li>
+        </ul>
+      </Note>
+    </Slide>
+    <Slide>
+      {/* todo: make this the right code */}
+      <JSX code={revealExample} />
+      <Note>
+        <ul>
+          <li>This is what this slide looks like in React.</li>
+          <li>You can see ....</li>
+        </ul>
+      </Note>
     </Slide>
   </>
 );

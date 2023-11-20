@@ -45,6 +45,10 @@ const WhyUseSlides = () => (
         </Note>
       </Slide>
       <Slide transition="slide">
+        <h4>It's code, so it's re-usable!</h4>
+        <h4>Create a boilerplate, set up layouts, make reusable components</h4>
+      </Slide>
+      <Slide transition="slide">
         <h4>
           Build with all your favourite libraries and knowledge you already have
         </h4>
@@ -53,9 +57,6 @@ const WhyUseSlides = () => (
           quick to get up and running and it feels very familar, with little to
           no learning curve
         </Note>
-      </Slide>
-      <Slide transition="slide">
-        <h4>Create a boilerplate, set up layouts, make reusable components</h4>
       </Slide>
       <Slide data-auto-animate>
         <JSX code={aboutRevealBefore} />
@@ -67,23 +68,18 @@ const WhyUseSlides = () => (
       <Slide>
         <h3>CSS animations</h3>
       </Slide>
-      <CSSAnimationSlide transition="fade" />
-      <Slide transition="slide">
-        <h3>Host your slides online</h3>
-        <ul>
-          <li>
-            Can be hosted like any other static HTML site (GitHub pages, Netlify
-            etc)
-          </li>
-          <li>
-            Some people prefer going through slides at their own pace and can
-            reference them later
-          </li>
-          <li>
-            Accessible on mobile without any additional software or downloads
-          </li>
-        </ul>
+      <Slide>
+        <h3>Polls</h3>
+        <iframe
+          src="https://wall.sli.do/event/6jB1527TxNvnfbsmsuzVQU?section=d759af35-0e86-417a-aea6-b1556b469243"
+          frameBorder="0"
+          height="100%"
+          width="100%"
+          title="slide"
+          scrolling="true"
+        />
       </Slide>
+      <CSSAnimationSlide transition="fade" />
     </Slide>
   </>
 );
