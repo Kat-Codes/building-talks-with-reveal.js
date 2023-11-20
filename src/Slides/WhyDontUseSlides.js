@@ -35,7 +35,7 @@ const WhyDontUseSlides = () => (
       </Note>
     </Slide>
     <Slide transition="slide">
-      <h4>You will need to keep your packages up to date</h4>
+      <h4>Keeping your packages up-to-date</h4>
     </Slide>
     <Slide transition="slide">
       <iframe

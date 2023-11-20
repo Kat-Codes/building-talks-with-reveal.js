@@ -6,11 +6,10 @@ import Link from '../Components/Link';
 const IntroSlides = () => (
   <>
     <Slide>
-      <p color="black">
-        I'm Katie, I'm a Full-Stack Engineer working at Spotify
-      </p>
-
-      <Note>Intro</Note>
+      <h4 color="black">
+        👋 I'm Katie, I'm a Full-Stack Engineer working at Spotify
+      </h4>
+      <Note>Hi all, I work in the platform space and I love all things web</Note>
     </Slide>
     <Slide>
       <img
@@ -18,7 +17,7 @@ const IntroSlides = () => (
         src="image/qr-code.png"
         alt="QR code that links to these slides"
       />
-      <p color="black">✨Slides✨</p>
+      <p color="black">Slides:</p>
       <Link href="building-talks-with-reveal-js.katcodes.co.uk/">
         building-talks-with-reveal-js.katcodes.co.uk/
       </Link>

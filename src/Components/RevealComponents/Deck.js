@@ -9,9 +9,9 @@ import revealOptions from './revealOptions';
 
 import 'reveal.js/dist/reveal.css';
 
-const Deck = ({ options, children }) => {
+const Deck = ({ children }) => {
   useEffect(() => {
-    Reveal.initialize({ ...revealOptions, ...options, plugins: [RevealNotes] });
+    Reveal.initialize({ ...revealOptions, plugins: [RevealNotes] });
   });
   return (
     <div className="reveal">
@@ -53,8 +53,7 @@ const Author = styled.h6`
 // `;
 
 Deck.propTypes = {
-  children: PropTypes.node,
-  options: PropTypes.string,
+  children: PropTypes.node
 };
 
 export default Deck;
