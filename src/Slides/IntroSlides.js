@@ -18,9 +18,11 @@ const IntroSlides = () => (
       <Note>
         <ul>
           <li>
-            As a little spoiler, one thing that's great about this presentation
-            is that it's easily accessible online. Use this QR code or link to
-            open a copy of slides yourself.
+            <li>1</li>
+            {/* add accessibility feature */}
+            As a little spoiler, one thing that's great about way of building
+            presentations is that it's easily accessible online. Use this QR
+            code or link to open a copy of slides yourself.
           </li>
           <li>
             I'll show the link again at the end if you decide you want to access

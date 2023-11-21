@@ -12,7 +12,10 @@ import 'reveal.js/dist/reveal.css';
 
 const Deck = ({ children }) => {
   useEffect(() => {
-    Reveal.initialize({ ...revealOptions, plugins: [RevealNotes, RevealMarkdown] });
+    Reveal.initialize({
+      ...revealOptions,
+      plugins: [RevealNotes, RevealMarkdown],
+    });
   });
   return (
     <div className="reveal">
