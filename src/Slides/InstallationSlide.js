@@ -13,7 +13,7 @@ import Reveal from 'reveal.js';
 import RevealNotes from 'reveal.js/plugin/notes/notes';
 import revealOptions from './revealOptions';
 
-const App = ({ children }) => {
+const App = () => {
   useEffect(() => {
     Reveal.initialize({
       ...revealOptions,
@@ -30,28 +30,28 @@ const App = ({ children }) => {
 
 const revealExample = `
 <section data-transition="fade">
-  <h3>What is Reveal.js?</h3>
+  <h3>Has lots of features build in</h3>
   <ul>
-    <li>Framework for creating presentations with HTML</li>
-    <li>This presentation is built using it 🤯</li>
-    <li>My demos will be using React, but this is optional!</li>
-    <li>Open source</li>
+    <li>Speaker notes</li>   
+    <li>Code snippets</li>
+    <li>Markdown</li>
+    <li>Math</li>
+    <li>.. and allows you to build custom ones</li>
   </ul>
-  <aside class="notes">What is Reveal.js?</aside>
+  <aside class="notes">Reveal has...</aside>
 </section>
 `;
 
-// todo: fix
 const InstallationSlide = () => (
   <>
     <Slide>
       <h3>Installation</h3>
       <Bash code={npmInstall} />
       <JSX code={initialise} />
+      <Note>So you're like wow! Sign me up, this looks amazing. How do I get started?!</Note>
     </Slide>
-    <Slide>
+    <section data-auto-animate  data-transition="fade">
       <h5>And our slides look like this...</h5>
-      {/* todo: make this the right code */}
       <JSX code={revealExample} />
       <Note>
         <ul>
@@ -59,7 +59,21 @@ const InstallationSlide = () => (
           <li>You can see ....</li>
         </ul>
       </Note>
-    </Slide>
+    </section>
+    {/* <section data-auto-animate data-transition="fade">
+      <h5>And our slides look like this...</h5>
+      <JSX code={revealExample} />
+        <img
+            src="image/slide.png"
+            alt="Black theme"
+          />
+      <Note>
+        <ul>
+          <li>This is what this slide looks like in React.</li>
+          <li>You can see ....</li>
+        </ul>
+      </Note>
+  </section> */}
   </>
 );
 

@@ -45,10 +45,9 @@ const WhyUseSlides = () => {
     <>
       <Slide>
         <Slide>
-          <h3>Why would you use Reveal?</h3>
+          <h3>What else can I do with it?</h3>
           <Note>
-            So I've mentioned the facts of what Reveal includes, but why do I
-            think you should use it?
+            So I've mentioned the facts of what Reveal includes, what the code looks like, but why should I use it and what else can i do with it?
           </Note>
         </Slide>
         <Slide transition="slide">
@@ -60,7 +59,7 @@ const WhyUseSlides = () => {
         <Slide transition="slide">
           <h4>
             Build with all your favourite libraries and knowledge you already
-            have
+            have, such as..
           </h4>
           <Note>
             This deck was bootstrapped with Create React App, so it was pretty
