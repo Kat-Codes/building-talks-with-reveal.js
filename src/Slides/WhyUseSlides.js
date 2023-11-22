@@ -1,9 +1,11 @@
 import React from 'react';
+import styled from 'styled-components';
 import Slide from '../Components/RevealComponents/Slide';
 import Note from '../Components/Notes/note';
 import JSX from '../Components/Highlight/JSX';
 import StyledComponentSlide from './StyledComponentSlide';
 import CSSAnimationSlide from './CSSAnimationSlide';
+import Link from '../Components/Link';
 
 const aboutRevealBefore = `
 const AboutRevealSlide = () => (
@@ -34,11 +36,11 @@ const AboutRevealSlide = () => (
 export default AboutRevealSlide;
 `;
 
-// const Game = styled.div`
-// height: 500px;
-// width: 100%;
-// /* background-color: white; */
-// `;
+const Game = styled.div`
+height: 500px;
+width: 100%;
+/* background-color: white; */
+`;
 
 const WhyUseSlides = () => {
   return (
@@ -48,7 +50,7 @@ const WhyUseSlides = () => {
           <h3>Why should I use it over, say Keynote?</h3>
           <Note>
             So I've mentioned the facts of what Reveal includes, what the code
-            looks like, but why should I use it? 
+            looks like, but why should I use it?
           </Note>
         </Slide>
         <Slide transition="slide">
@@ -71,7 +73,8 @@ const WhyUseSlides = () => {
         <Slide data-auto-animate>
           <JSX code={aboutRevealBefore} />
           <Note>
-            I showed you the setup and how to setup slides, but how can we use React even further to write better code
+            I showed you the setup and how to setup slides, but how can we use
+            React even further to write better code
           </Note>
         </Slide>
         <Slide data-auto-animate>
@@ -81,23 +84,13 @@ const WhyUseSlides = () => {
         <Slide>
           <h3>CSS animations</h3>
         </Slide>
-        {/* <Slide>
-        <h3>Polls</h3>
-        <iframe
-          src="https://wall.sli.do/event/6jB1527TxNvnfbsmsuzVQU?section=d759af35-0e86-417a-aea6-b1556b469243"
-          frameBorder="0"
-          height="100%"
-          width="100%"
-          title="slide"
-          scrolling="true"
-        />
-      </Slide> */}
         <CSSAnimationSlide transition="fade" />
-        {/* <Slide data-state="stats">
+        <Slide data-state="stats">
           <Game>
-            <iframe title="efs" src="https://www.play-tetris-online.com/tetris-html5/" width="600px" height="600px" scrolling="no" />
+            <iframe frameBorder="0" title="efs" src="https://freehtml5games.org/games/tetris-cube/index.html" width="600px" height="600px" scrolling="no" />
+            <aside>Credit: <Link href="https://codepen.io/triboot">https://freehtml5games.org/view/Tetris-Cube.html</Link></aside>
           </Game>
-        </Slide> */}
+        </Slide>
       </Slide>
     </>
   );
