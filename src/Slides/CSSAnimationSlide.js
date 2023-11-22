@@ -78,11 +78,18 @@ const Svg = () => (
 );
 
 const CSSAnimationSlide = ({ transition }) => (
+  <>
   <Slide transition={transition}>
     <Svg />
     <aside>Credit: Issa Pourgholam</aside>
     <Link href="https://codepen.io/triboot">https://codepen.io/triboot</Link>
-  </Slide>
+    </Slide>
+          {/* <Slide>
+        <div>
+          <iframe border="0" frameBorder="0" marginHeight="0" marginWidth="0" width="755px" height="680px" title="sdf" src="https://funhtml5games.com?embed=mariojump" />
+          </div>
+    </Slide> */}
+    </>
 );
 
 export default CSSAnimationSlide;

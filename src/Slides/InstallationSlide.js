@@ -30,7 +30,7 @@ const App = () => {
 
 const revealExample = `
 <section data-transition="fade">
-  <h3>Has lots of features build in</h3>
+  <h3>Has lots of plugins built in</h3>
   <ul>
     <li>Speaker notes</li>   
     <li>Code snippets</li>

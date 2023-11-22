@@ -45,10 +45,10 @@ const WhyUseSlides = () => {
     <>
       <Slide>
         <Slide>
-          <h3>What else can I do with it?</h3>
+          <h3>Why should I use it over, say Keynote?</h3>
           <Note>
             So I've mentioned the facts of what Reveal includes, what the code
-            looks like, but why should I use it and what else can i do with it?
+            looks like, but why should I use it? 
           </Note>
         </Slide>
         <Slide transition="slide">
@@ -60,7 +60,7 @@ const WhyUseSlides = () => {
         <Slide transition="slide">
           <h4>
             Build with all your favourite libraries and knowledge you already
-            have, such as..
+            have
           </h4>
           <Note>
             This deck was bootstrapped with Create React App, so it was pretty
@@ -70,6 +70,9 @@ const WhyUseSlides = () => {
         </Slide>
         <Slide data-auto-animate>
           <JSX code={aboutRevealBefore} />
+          <Note>
+            I showed you the setup and how to setup slides, but how can we use React even further to write better code
+          </Note>
         </Slide>
         <Slide data-auto-animate>
           <JSX code={aboutRevealAfter} />
