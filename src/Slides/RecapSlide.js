@@ -19,11 +19,6 @@ const RecapSlide = () => (
         you
       </li>
     </ul>
-    {/* <Note>
-      <ul>
-        <li>asda</li>
-      </ul>
-    </Note> */}
   </Slide>
 );
 

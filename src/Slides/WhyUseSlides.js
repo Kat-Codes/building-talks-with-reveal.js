@@ -39,7 +39,6 @@ export default AboutRevealSlide;
 const Game = styled.div`
 height: 500px;
 width: 100%;
-/* background-color: white; */
 `;
 
 const WhyUseSlides = () => {

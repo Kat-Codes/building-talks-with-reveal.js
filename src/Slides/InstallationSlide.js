@@ -63,20 +63,6 @@ const InstallationSlide = () => (
         </ul>
       </Note>
     </section>
-    {/* <section data-auto-animate data-transition="fade">
-      <h5>And our slides look like this...</h5>
-      <JSX code={revealExample} />
-        <img
-            src="image/slide.png"
-            alt="Black theme"
-          />
-      <Note>
-        <ul>
-          <li>This is what this slide looks like in React.</li>
-          <li>You can see ....</li>
-        </ul>
-      </Note>
-  </section> */}
   </>
 );
 
